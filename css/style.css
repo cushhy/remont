@@ -105,16 +105,41 @@ header::before {
 
 .btn-wrapper {
   max-width: 530px;
-  bottom: 0;
-  left: 0;
+  bottom: 13%;
+  left: -5%;
   padding: 0.625rem 1.25rem;
   border-radius: 16px;
   background-color: #193d55;
 }
 
+@media (max-width: 87.5rem) {
+  .btn-wrapper {
+    bottom: 24%;
+  }
+}
+
+@media (max-width: 61.9375rem) {
+  .btn-wrapper {
+    bottom: -4%;
+    left: 19%;
+  }
+}
+
+@media (max-width: 48rem) {
+  .btn-wrapper {
+    left: 10%;
+  }
+}
+
 @media (max-width: 30.4375rem) {
   .btn-wrapper {
     padding: 0.3125rem 0.625rem;
+  }
+}
+
+@media (max-width: 27.875rem) {
+  .btn-wrapper {
+    left: 5%;
   }
 }
 
@@ -147,6 +172,21 @@ header::before {
 
 .btn-YT:hover {
   color: #fff;
+}
+
+@media (max-width: 75.0625rem) {
+  .btn-YT {
+    padding: 1.25rem 0.625rem;
+  }
+  .btn-YT h2 {
+    font-size: 1.6875rem !important;
+  }
+}
+
+@media (max-width: 48rem) {
+  .btn-YT h2 {
+    font-size: 1.5625rem !important;
+  }
 }
 
 @media (max-width: 30.4375rem) {
@@ -251,6 +291,16 @@ header::before {
   }
 }
 
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .slick-arrow {
   width: 40px;
   height: 40px;
@@ -264,7 +314,7 @@ header::before {
 }
 
 .slick-next {
-  right: -5%;
+  right: -3%;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
