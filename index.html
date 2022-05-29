@@ -12,6 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
 
     <title>Ремонт</title>
 </head>
@@ -56,8 +59,8 @@
                     <div class="col intro-number">
                         <div class="d-flex justify-content-center"><a class="link-dark fs-5" href="#">+7 (927)
                                 098-24-31</a></div>
-                        <a class="link-danger fs-5 d-flex justify-content-center" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Заказать звонок</a>
+                        <a class="text-uppercase fs-6 fw-semibold d-flex justify-content-center color-red" href="#"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</a>
                     </div>
                 </div>
             </div>
@@ -93,7 +96,8 @@
                             href="#">Контакты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-center nav-link link-danger fw-semibold" href="#">Наш магазин в Пензе</a>
+                        <a class="text-center nav-link link-danger fw-semibold color-red" href="#">Наш магазин в
+                            Пензе</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +109,7 @@
             <div class="intro__inner">
                 <div class="row">
                     <div class="col mt-4 position-relative intro-phone">
-                        <img class="intro__phone" src="assets/img/intro-phone.png" alt="">
+                        <img class="intro__phone mt-5" src="assets/img/intro-phone.png" alt="">
                         <div class="btn-wrapper position-absolute">
                             <button class="btn btn-primary btn-YT d-flex align-items-center">
                                 <img class="me-4" src="assets/img/YT.png" alt="">
@@ -114,25 +118,26 @@
                         </div>
                     </div>
                     <div class="col">
-                        <h1 class="text-white text-center mt-5 mb-3">Переклейка стекла iPhone 13 Pro в Пензе</h1>
-                        <form action="#" class="intro__form">
+                        <h1 class="text-white text-center mt-1 mb-3 intro__text-pere">Переклейка стекла iPhone 13 Pro в
+                            Пензе</h1>
+                        <form action="#" class="intro__form mx-auto">
                             <h3 class="text-white text-center">Пожалуйста, заполните форму ниже</h3>
-                            <div class="d-flex flex-column my-4">
+                            <div class="d-flex flex-column ms-5 mt-3 mb-3 input__group">
                                 <label for="name" class="text-white fs-5 mb-2">Введите Имя*</label>
                                 <input class="intro__input" type="text" name="name" placeholder="Имя">
                             </div>
-                            <div class="d-flex flex-column my-5">
+                            <div class="d-flex flex-column ms-5 mb-5 input__group">
                                 <label for="number" class="text-white fs-5 mb-2">Введите номер*</label>
                                 <input class="intro__input" type="text" name="number"
                                     placeholder="Телефон для связи с вами">
                             </div>
-                            <div class="d-flex justify-content-center mb-4">
+                            <div class="d-flex justify-content-center mb-3">
                                 <button type="button"
                                     class="btn btn-warning text-uppercase text-white fs-4 intro-btn">Узнать
                                     стоимость
                                     ремонта</button>
                             </div>
-                            <p class="text-white text-center">Нажимая на кнопку "Узнать стоимость ремонта", Вы
+                            <p class="text-white text-center mx-auto">Нажимая на кнопку "Узнать стоимость ремонта", Вы
                                 даете
                                 Согласие на
                                 обработку
@@ -444,22 +449,23 @@
                     <img class="footer__img mb-3" src="assets/img/location.png" alt="">
                 </div>
                 <div class="col">
-                    <div class="adres d-flex align-items-center p-4 mx-auto">
+                    <div class="adres d-flex align-items-center justify-content-center mx-auto py-3">
                         <img class="me-4" src="assets/img/adres.png" alt="">
-                        <p class="m-0 text-white">г.Пенза<br>ул.Бакунина д.54</p>
+                        <p class="m-0 text-white fs-6">г.Пенза<br>ул.Бакунина д.54</p>
                     </div>
                     <h2 class="text-center text-white fw-semibold m-3">Позвоните нам:</h2>
                     <a class="text-decoration-none d-flex justify-content-center text-white fs-2 footer-link"
                         href="#">+7 (927)
                         098-24-31</a>
-                    <a class="text-decoration-none d-flex justify-content-center text-secondary m-5 fs-6 footer-link"
+                    <a class="text-decoration-none d-flex justify-content-center text-white m-5 fs-6 footer-link__politic"
                         href="#">Политика в отношении обработки персональных данных</a>
-                    <p class="text-center text-white">© 2015-2022 BV|Store - мультибрендовый магазин техники и
+                    <p class="text-center text-white lh-lg">© 2015-2022 BV|Store - мультибрендовый магазин техники и
                         сервисный центр. Копирование материалов
                         сайта, а так же названия "BV|Store", запрещено на правах обладания данной интеллектуальной
                         собственностью.</p>
-                    <p class="text-center text-white">Электронная почта: <a href="#">bv-store@yandex.ru</a> | inst: <a
-                            href="#">bvstorenew</a> </p>
+                    <p class="text-center text-white mt-4">Электронная почта: <a class="text-white text-decoration-none"
+                            href="#">bv-store@yandex.ru</a> | inst: <a class="text-white text-decoration-none"
+                            href="#">bvstorenew <img class="ms-1" src="assets/img/footer-inst.png" alt=""></a> </p>
                 </div>
             </div>
         </div>
