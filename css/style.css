@@ -77,8 +77,6 @@ header::before {
 
 .intro__form {
   max-width: 581px;
-  padding: 0.625rem;
-  padding-right: 1.25rem;
   background-color: #193d55;
   border-radius: 10px;
 }
@@ -96,6 +94,10 @@ header::before {
 .intro__form p {
   max-width: 504px;
   font-size: 0.75rem !important;
+}
+
+.reviews-flamp {
+  font-size: 0.9375rem !important;
 }
 
 .intro__input {
