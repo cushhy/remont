@@ -100,6 +100,18 @@ header::before {
   font-size: 0.9375rem !important;
 }
 
+@media (max-width: 35.625rem) {
+  .input__group label {
+    margin-left: 1.25rem !important;
+  }
+}
+
+@media (max-width: 33.5625rem) {
+  .input__group label {
+    margin-left: 0 !important;
+  }
+}
+
 .intro__input {
   max-width: 484px;
   padding: 1.25rem 0rem 1.25rem 1.25rem;
@@ -129,6 +141,12 @@ header::before {
   font-size: 3rem !important;
 }
 
+@media (max-width: 28.9375rem) {
+  .intro__text-pere {
+    font-size: 2.375rem !important;
+  }
+}
+
 .intro-btn {
   padding: 1.25rem 4.6875rem;
   background-color: #ff7141;
@@ -155,7 +173,7 @@ header::before {
 
 @media (max-width: 29.9375rem) {
   .intro-btn {
-    padding: 0.625rem 1.25rem;
+    padding: 1.25rem 1.875rem;
     font-size: 0.9375rem !important;
   }
 }
@@ -193,15 +211,22 @@ header::before {
   }
 }
 
-@media (max-width: 30.4375rem) {
+@media (max-width: 30.5rem) {
   .btn-wrapper {
     padding: 0.3125rem 0.625rem;
+    left: 15%;
   }
 }
 
 @media (max-width: 27.875rem) {
   .btn-wrapper {
-    left: 5%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 26.0625rem) {
+  .btn-wrapper {
+    left: 6%;
   }
 }
 
