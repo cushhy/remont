@@ -33,7 +33,7 @@ header::before {
 }
 
 .geolocation {
-  min-width: 255px !important;
+  min-width: 283px !important;
 }
 
 @media (max-width: 67.6875rem) {
@@ -96,12 +96,6 @@ header::before {
 .intro__form p {
   max-width: 504px;
   font-size: 0.75rem !important;
-}
-
-@media (max-width: 48.125rem) {
-  .input__group {
-    margin-left: 0.9375rem !important;
-  }
 }
 
 .intro__input {
