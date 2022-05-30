@@ -15,13 +15,14 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
         rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic" rel="stylesheet" />
 
     <title>Ремонт</title>
 </head>
 
 <body>
 
-    <header class="mb-4 position-relative">
+    <header class="mb-5 position-relative">
         <div class="container">
             <div class="header__inner">
                 <div class="row d-flex">
@@ -30,7 +31,7 @@
                             <img class="header__logo" src="assets/img/header.logo.png" alt="">
                         </a>
                     </div>
-                    <div class="col d-flex flex-column justify-content">
+                    <div class="col d-flex flex-column dzen mx-auto justify-content-center align-items-center">
                         <div class="mx-auto">
                             <img src="assets/img/flamp.png" alt="">
                             <a class="reviews-flamp" href="#">Отзывы на flamp.ru</a>
@@ -49,18 +50,21 @@
                             <img class="me-2" src="assets/img/geo.png" alt="">
                             <h6>г.Пенза ул.Бакунина д.54</h6>
                         </div>
-                        <p class="m-0 text-center text-secondary">пн - пт: 10:00 - 19:00</p>
-                        <p class="m-0 text-center text-secondary">сб - вс: 10:00 - 17:00</p>
+                        <div class="d-flex flex-column date-work">
+                            <p class="m-0 text-center text-secondary">пн - пт: 10:00 - 19:00</p>
+                            <p class="m-0 text-center text-secondary">сб - вс: 10:00 - 17:00</p>
+                        </div>
                         <div class="d-flex align-items-center">
                             <img class="me-2" src="assets/img/time.png" alt="">
                             <p class="m-0">без перерывов и выходных</p>
                         </div>
                     </div>
                     <div class="col intro-number">
-                        <div class="d-flex justify-content-center"><a class="link-dark fs-5" href="#">+7 (927)
+                        <div class="d-flex justify-content-end"><a class="text-decoration-none link-dark fs-5 mb-2"
+                                href="#">+7 (927)
                                 098-24-31</a></div>
-                        <a class="text-uppercase fs-6 fw-semibold d-flex justify-content-center color-red" href="#"
-                            data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</a>
+                        <a class="text-decoration-none text-uppercase fs-6 fw-semibold d-flex justify-content-end color-red"
+                            href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</a>
                     </div>
                 </div>
             </div>
@@ -107,27 +111,33 @@
     <section class="intro py-3">
         <div class="container">
             <div class="intro__inner">
+                <h1 class="text-white text-center intro__text-peremob" style="font-family: montserrat;">
+                    Переклейка
+                    стекла iPhone 13 Pro в
+                    Пензе</h1>
                 <div class="row">
                     <div class="col mt-4 position-relative intro-phone">
                         <img class="intro__phone mt-5" src="assets/img/intro-phone.png" alt="">
                         <div class="btn-wrapper position-absolute">
                             <button class="btn btn-primary btn-YT d-flex align-items-center">
                                 <img class="me-4" src="assets/img/YT.png" alt="">
-                                <h2>Посмотрите видео о нас</h2>
+                                <h2 class="m-0">Посмотрите видео о нас</h2>
                             </button>
                         </div>
                     </div>
                     <div class="col">
-                        <h1 class="text-white text-center mt-1 mb-3 intro__text-pere">Переклейка стекла iPhone 13 Pro в
+                        <h1 class="mb-4 mt-2 text-white text-center intro__text-pere" style="font-family: montserrat;">
+                            Переклейка
+                            стекла iPhone 13 Pro в
                             Пензе</h1>
                         <form action="#" class="intro__form mx-auto p-2">
-                            <h3 class="text-white text-center">Пожалуйста, заполните форму ниже</h3>
-                            <div class="d-flex flex-column mt-3 mb-3 input__group justify-content-center">
-                                <label for="name" class="text-white fs-5 mb-2 ms-5">Введите Имя*</label>
+                            <h3 class="text-white text-center mt-2">Пожалуйста, заполните форму ниже</h3>
+                            <div class="d-flex flex-column mt-3 mb-3 input__group mx-auto justify-content-center">
+                                <label for="name" class="text-white fs-5 mb-2">Введите Имя*</label>
                                 <input class="intro__input mx-auto" type="text" name="name" placeholder="Имя">
                             </div>
-                            <div class="d-flex flex-column mb-5 input__group">
-                                <label for="number" class="text-white fs-5 mb-2 ms-5">Введите номер*</label>
+                            <div class="d-flex flex-column mb-4 input__group mx-auto">
+                                <label for="number" class="text-white fs-5 mb-2">Введите номер*</label>
                                 <input class="intro__input mx-auto" type="text" name="number"
                                     placeholder="Телефон для связи с вами">
                             </div>
@@ -228,9 +238,9 @@
         </div>
     </section>
 
-    <section class="work py-4">
+    <section class="work py-5">
         <div class="container">
-            <h1 class="mt-5 mb-5 text-uppercase">Переклейка стекла iphone 13 pro в Пензе</h1>
+            <h1 class="text-uppercase">Переклейка стекла iphone 13 pro в Пензе</h1>
             <div class="row mb-3">
                 <p class="fs-5">Профессионально переклеиваем стекла на телефонах. При переклейке стекла, на телефоне
                     сохраняется Ваш
@@ -275,9 +285,9 @@
         </div>
     </section>
 
-    <section class="work-display py-4">
+    <section class="work-display py-5">
         <div class="container">
-            <h1 class="mt-5 mb-5 text-uppercase" id="uslugi">также мы переклеиваем стекла дисплеев</h1>
+            <h1 class="text-uppercase" id="uslugi">также мы переклеиваем стекла дисплеев</h1>
             <div class="row mb-1">
                 <a href="#" class="col">
                     <div class="work__item position-relative"
@@ -358,7 +368,7 @@
 
     <section>
         <div class="container">
-            <h1 class="mt-5 mb-5 text-uppercase" id="uslugi">Цены на переклейку стекла</h1>
+            <h1 class="text-uppercase" id="uslugi">Цены на переклейку стекла</h1>
             <table class="table">
                 <thead>
                     <tr class="table-warning">
@@ -408,7 +418,7 @@
 
     <section class="reviews py-5">
         <div class="container">
-            <h1 class="mt-5 mb-5 text-uppercase" id="reviews">Отзывы</h1>
+            <h1 class="text-uppercase" id="reviews">Отзывы</h1>
             <div class="row">
                 <div class="reviews__sliders mx-auto">
                     <div class="reviews__slider d-flex">
@@ -457,7 +467,7 @@
                     <a class="text-decoration-none d-flex justify-content-center text-white fs-2 footer-link"
                         href="#">+7 (927)
                         098-24-31</a>
-                    <a class="text-decoration-none d-flex justify-content-center text-white m-5 fs-6 footer-link__politic"
+                    <a class="text-decoration-none text-center d-flex justify-content-center text-white m-5 fs-6 footer-link__politic"
                         href="#">Политика в отношении обработки персональных данных</a>
                     <p class="text-center text-white lh-lg">© 2015-2022 BV|Store - мультибрендовый магазин техники и
                         сервисный центр. Копирование материалов
