@@ -111,9 +111,13 @@ header::before {
   background-size: auto, cover;
 }
 
+.intro.second {
+  min-height: 520px;
+}
+
 .intro__form {
   max-width: 581px;
-  background-color: #193d55;
+  background-color: #074562;
   border-radius: 10px;
 }
 
@@ -357,6 +361,16 @@ header::before {
   .btn-YT h2 {
     font-size: 1.0625rem !important;
   }
+}
+
+.btn-cost {
+  background-color: #ff7141;
+  border: none;
+}
+
+.btn-cost h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .embed,
@@ -621,4 +635,9 @@ footer p a:hover {
   .footer__img {
     width: 300px;
   }
+}
+
+thead th {
+  background-color: #FF903E !important;
+  color: #fff;
 }
