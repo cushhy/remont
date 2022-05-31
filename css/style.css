@@ -364,13 +364,25 @@ header::before {
 }
 
 .btn-cost {
+  min-height: 62px;
   background-color: #ff7141;
   border: none;
 }
 
-.btn-cost h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
+@media (max-width: 28.75rem) {
+  .btn-cost {
+    margin: 0.625rem auto !important;
+  }
+}
+
+.btn-cost h3 {
+  font-size: 1.25rem !important;
+}
+
+@media (max-width: 62.25rem) {
+  .btn-cost h3 {
+    font-size: 0.9375rem !important;
+  }
 }
 
 .embed,
@@ -526,7 +538,7 @@ header::before {
   }
 }
 
-@media (max-width: 26.4375rem) {
+@media (max-width: 32.375rem) {
   .reviews__slider {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;

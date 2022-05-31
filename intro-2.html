@@ -22,6 +22,92 @@
 
 <body>
 
+    <header class="mb-5 position-relative">
+        <div class="container">
+            <div class="header__inner">
+                <div class="row d-flex">
+                    <div class="col me-5">
+                        <a href="#" id="intro">
+                            <img class="header__logo" src="assets/img/header.logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col d-flex flex-column dzen mx-auto justify-content-center align-items-center">
+                        <div class="mx-auto">
+                            <img src="assets/img/flamp.png" alt="">
+                            <a class="reviews-flamp" href="#">Отзывы на flamp.ru</a>
+                        </div>
+                        <div class="mt-3 mx-auto">
+                            <a class="text-decoration-none" href="#">
+                                <img src="assets/img/insta.png" alt="">
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <img src="assets/img/yandex.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col geolocation">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="assets/img/geo.png" alt="">
+                            <h6>г.Пенза ул.Бакунина д.54</h6>
+                        </div>
+                        <div class="d-flex flex-column date-work">
+                            <p class="m-0 text-center text-secondary">пн - пт: 10:00 - 19:00</p>
+                            <p class="m-0 text-center text-secondary">сб - вс: 10:00 - 17:00</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="assets/img/time.png" alt="">
+                            <p class="m-0">без перерывов и выходных</p>
+                        </div>
+                    </div>
+                    <div class="col intro-number">
+                        <div class="d-flex justify-content-end"><a class="text-decoration-none link-dark fs-5 mb-2"
+                                href="#">+7 (927)
+                                098-24-31</a></div>
+                        <a class="text-decoration-none text-uppercase fs-6 fw-semibold d-flex justify-content-end color-red"
+                            href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-white position-relative py-2">
+        <div class="container">
+            <button class="navbar-toggler mx-auto my-2" type="button" name="burger" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <a class="text-decoration-none fs-4 text-dark" href="#" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">Открыть
+                    меню</a>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item me-4">
+                        <a data-scroll="#intro" class="text-center nav-link link-primary fw-semibold"
+                            aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a data-scroll="#uslugi" class="text-center nav-link link-primary fw-semibold"
+                            href="#">Услуги</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a data-scroll="#reviews" class="text-center nav-link link-primary fw-semibold"
+                            href="#">Отзывы</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a data-scroll="#contacts" class="text-center nav-link link-primary fw-semibold"
+                            href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-center nav-link link-danger fw-semibold color-red" href="#">Наш магазин в
+                            Пензе</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <section class="intro second py-3">
         <div class="container">
             <div class="intro__inner">
@@ -39,26 +125,378 @@
                     </div>
                 </div>
                 <div class="mt-5 row d-flex justify-content-center">
-                    <div class="col-4">
-                        <button class="mx-auto py-2 px-4 btn btn-primary btn-cost d-flex align-items-center">
+                    <div class="col">
+                        <button class="ms-auto py-2 px-3 btn btn-primary btn-cost d-flex align-items-center">
                             <img class="me-4" src="assets/img/rub.png" alt="">
-                            <h2 class="m-0">Посмотреть цены</h2>
+                            <h3 class="m-0 fw-semibold">Посмотреть цены</h3>
                         </button>
                     </div>
-                    <div class="col-4">
-                        <button class="mx-auto py-2 px-4 btn btn-primary btn-cost d-flex align-items-center">
+                    <div class="col">
+                        <button class=" mr-auto py-2 px-3 btn btn-primary btn-cost d-flex align-items-center">
                             <img class="me-4" src="assets/img/yt-2.png" alt="">
-                            <h2 class="m-0">Видео переклейки</h2>
+                            <h3 class="m-0 fw-semibold">Видео переклейки</h3>
                         </button>
                     </div>
                 </div>
-                <div class="mt-5 col mx-auto d-flex justify-content-center">
+                <div class="pt-5 mt-5 col mx-auto d-flex justify-content-center">
                     <img class="mx-auto" src="assets/img/down.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="video-steklo py-5">
+        <div class="container">
+            <h1 class="text-uppercase">Видео переклейки стекла iPhone 13 Pro</h1>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="embed">
+                        <iframe width="1904" height="768" src="https://www.youtube.com/embed/UjVyvPHcAGQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work py-5">
+        <div class="container">
+            <h1 class="text-uppercase">Переклейка стекла iphone 13 pro в Пензе</h1>
+            <div class="row mb-3">
+                <p class="fs-6">Профессионально переклеиваем стекла на телефонах. При переклейке стекла, на телефоне
+                    сохраняется Ваш
+                    дисплей и таким образом, данный вариант ремонта экрана устройства выгоднее, чем покупка нового
+                    дисплея. Операции по переклейке производятся на профессиональном специализированном оборудовании.
+                    Результатом выполненной работы является полностью восстановленный дисплей вашего телефона с
+                    сохранением заводской оригинальной матрицы. </p>
+            </div>
+            <div class="row mb-3">
+                <p class="fs-6">Мы переклеиваем стекло не только на телефонах Apple iPhone, Samsung, Huawei, Xiaomi и
+                    др. ,но и на
+                    планшетах, и даже переклеиваем стекло на часах Apple Watch. После переклейки все функции устройства
+                    будут работать, также как и до выполнения. Мы сохраним ip68 степень защиты от влаги, функции Face ID
+                    и True Tone. В нашем сервисном центре, также есть уникальная возможность переклеить не только стекло
+                    дисплея вашего телефона, но и починить стекло задней стенки. Стоит заметить, что переклейка имеет
+                    смысл если дисплей устройства рабочий, но разбито его стекло. При выходе из строя самого модуля,
+                    требуется диагностика, чтобы определить возможность его восстановления. Посмотрите как выполняем
+                    данную услугу в наших видео, которые находятся выше. </p>
+            </div>
+            <div class="row mb-3">
+                <p class="fs-6">Нами были отремонтированы тысячи различных устройств, мы обладаем высочайшей
+                    компетенцией в ремонте и
+                    переклейке стекла телефонов. Работая с 2015 года, заработанная нами репутация как надёжной компании
+                    по ремонту на рынке Пензы говорит о высочайшем качестве работы наших мастеров. По осуществляю
+                    переклейки стекла, мы даём гарантию на нашу работу. </p>
+            </div>
+            <div class="row mb-3">
+                <p class="fs-6">Профессиональный ремонт задней стенки это уникальная услуга, которую осуществляет крайне
+                    малое
+                    количество сервисных центров, мы обладаем всем специализированным оборудованием и навыками, чтобы
+                    осуществлять её качественно и профессионально. Ремонт стекла задней стенки осуществляется также на
+                    устройствах разных производителей.</p>
+            </div>
+            <div class="row mb-3">
+                <p class="fs-6">Если Вам требуется переклеить стекло дисплея на вашем телефоне, или отремонтировать
+                    заднюю стеклянную
+                    стенку - обратитесь к нам. Сделаем качественно и не дорого. Примерная стоимость услуг по переклейке
+                    стекла телефонов указана в таблице ниже. Подробнее и более точную стоимость можно узнать - позвоним
+                    нам или в нашем сервисном центре по адресу: г. Пенза, ул. Бакунина, д. 54. </p>
+            </div>
+            <p class="text-center fs-5">Мы ждем Ваше обращение к нам. </p>
+        </div>
+    </section>
+
+    <section class="work-display py-5">
+        <div class="container">
+            <h1 class="text-uppercase" id="uslugi">также мы переклеиваем стекла дисплеев</h1>
+            <div class="row mb-1">
+                <a href="#" class="col">
+                    <div class="work__item position-relative"
+                        style="background: linear-gradient(to bottom, #edb66e, #ec8b6b);">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-iphone.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">iPhone ></h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col">
+                    <div class="work__item position-relative"
+                        style="background: linear-gradient(to bottom, #ec8b6b, #ad91db);">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-ipad.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">iPad ></h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col">
+                    <div class="work__item position-relative"
+                        style="background: linear-gradient(to bottom, #fd9b7a 28%, #06f2b5 100%);">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-samsung.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">Samsung ></h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="#" class="col">
+                    <div class="work__item position-relative"
+                        style="background: linear-gradient(to bottom, #d3ceff, #ec8b6b);">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-huawei.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">Huawei ></h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col">
+                    <div class="work__item position-relative"
+                        style="background: linear-gradient(to bottom, #f7e68e, #e4a09a);">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-applewatch.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">Apple Watch ></h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col">
+                    <div class="work__item position-relative">
+                        <div class="work__image">
+                            <img src="assets/img/work__item-iphone-back.png" alt="">
+                        </div>
+                        <div class="work__name ps-3 py-2">
+                            <h6 class="m-0 text-white ">СТЕКЛО</h6>
+                            <h1 class="m-0 text-white fw-bold">iPhone ></h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-uppercase" id="uslugi">Цены на переклейку стекла</h1>
+            <table class="table">
+                <thead>
+                    <tr class="table-warning">
+                        <th class="py-4 ps-5" scope="col">Вид работ</th>
+                        <th class="py-4" scope="col">Стоимость</th>
+                        <th class="py-4" scope="col">Время*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="pt-4 ps-5">
+                            <a class="link-warning" href="#">Замена стекла экрана iPhone 11 Pro Max</a>
+                        </td>
+                        <td>
+                            <s class="m-0 text-secondary">14 900 Р</s>
+                            <p class="m-0 text-warning fw-bold">12 900 Р</p>
+                            <p class="m-0 text-secondary">До 26 мая 2022**</p>
+                        </td>
+                        <td class="pt-4">От 4 часов</td>
+                    </tr>
+                    <tr>
+                        <td class="pt-4 ps-5">
+                            <a class="link-warning" href="#">Замена стекла экрана iPhone 11 Pro Max</a>
+                        </td>
+                        <td>
+                            <s class="m-0 text-secondary">14 900 Р</s>
+                            <p class="m-0 text-warning fw-bold">12 900 Р</p>
+                            <p class="m-0 text-secondary">До 26 мая 2022**</p>
+                        </td>
+                        <td class="pt-4">От 4 часов</td>
+                    </tr>
+                    <tr>
+                        <td class="pt-4 ps-5">
+                            <a class="link-warning" href="#">Замена стекла экрана iPhone 11 Pro Max</a>
+                        </td>
+                        <td>
+                            <s class="m-0 text-secondary">14 900 Р</s>
+                            <p class="m-0 text-warning fw-bold">12 900 Р</p>
+                            <p class="m-0 text-secondary">До 26 мая 2022**</p>
+                        </td>
+                        <td class="pt-4">От 4 часов</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="reviews py-5">
+        <div class="container">
+            <h1 class="text-uppercase" id="reviews">Отзывы</h1>
+            <div class="row">
+                <div class="reviews__sliders mx-auto">
+                    <div class="reviews__slider d-flex">
+                        <div class="slider__photo me-5">
+                            <img src="assets/img/slider__photo.jpg" alt="">
+                        </div>
+                        <div class="slider__text">
+                            <h2 class="mb-3">Артем Хачатрян</h2>
+                            <p class="text-secondary">Мой телефон Asus перестал включаться, причины сам обнаружить не
+                                смог, отнёс с
+                                сервисный
+                                центр BV|Store, мастера профессионально и быстро заменили мне аккомулятор и телефон
+                                ожил, спасибо что отремонтировали моего друга.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slider d-flex">
+                        <div class="slider__photo me-5">
+                            <img src="assets/img/slider__photo.jpg" alt="">
+                        </div>
+                        <div class="slider__text">
+                            <h2 class="mb-3">Артем Хачатрян</h2>
+                            <p class="text-secondary">Мой телефон Asus перестал включаться, причины сам обнаружить не
+                                смог, отнёс с
+                                сервисный
+                                центр BV|Store, мастера профессионально и быстро заменили мне аккомулятор и телефон
+                                ожил, спасибо что отремонтировали моего друга.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col mx-auto map">
+                    <img class="footer__img mb-3" src="assets/img/location.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="adres d-flex align-items-center justify-content-center mx-auto py-3">
+                        <img class="me-4" src="assets/img/adres.png" alt="">
+                        <p class="m-0 text-white fs-6">г.Пенза<br>ул.Бакунина д.54</p>
+                    </div>
+                    <h2 class="text-center text-white fw-semibold m-3">Позвоните нам:</h2>
+                    <a class="text-decoration-none d-flex justify-content-center text-white fs-2 footer-link"
+                        href="#">+7 (927)
+                        098-24-31</a>
+                    <a class="text-decoration-none text-center d-flex justify-content-center text-white m-5 fs-6 footer-link__politic"
+                        href="#">Политика в отношении обработки персональных данных</a>
+                    <p class="text-center text-white lh-lg">© 2015-2022 BV|Store - мультибрендовый магазин техники и
+                        сервисный центр. Копирование материалов
+                        сайта, а так же названия "BV|Store", запрещено на правах обладания данной интеллектуальной
+                        собственностью.</p>
+                    <p class="text-center text-white mt-4">Электронная почта: <a class="text-white text-decoration-none"
+                            href="#">bv-store@yandex.ru</a> | inst: <a class="text-white text-decoration-none"
+                            href="#">bvstorenew <img class="ms-1" src="assets/img/footer-inst.png" alt=""></a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="namemodal" class="form-label">Имя*</label>
+                            <input type="text" class="form-control" id="namemodal" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="numbermodal" class="form-label">Номер телефона*</label>
+                            <input type="text" class="form-control" id="numbermodal">
+                        </div>
+                        <label for="message" class="form-label">Что у вас случилось</label>
+                        <div class="input-group">
+                            <textarea class="form-control" aria-label="message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- JavaScript -->
