@@ -77,7 +77,10 @@ header::before {
   min-width: 176px !important;
 }
 
-@media (max-width: 67.75rem) {
+@media (max-width: 75rem) {
+  .intro-number {
+    margin-top: 1.875rem !important;
+  }
   .intro-number div,
   .intro-number a {
     -webkit-box-pack: center !important;
@@ -390,14 +393,28 @@ header::before {
   border-radius: 16px;
 }
 
-@media (max-width: 48.125rem) {
+@media (max-width: 62.75rem) {
   .btn-cost {
-    margin: 1.875rem auto !important;
+    min-width: 350px;
+    margin: 1.25rem auto !important;
+  }
+}
+
+@media (max-width: 23.125rem) {
+  .btn-cost {
+    min-width: 0;
+    margin: 1.25rem auto !important;
   }
 }
 
 .btn-cost h3 {
   font-size: 1.5rem !important;
+}
+
+@media (max-width: 28.125rem) {
+  .btn-cost h3 {
+    font-size: 1.125rem !important;
+  }
 }
 
 .btn-cost.uzor {
