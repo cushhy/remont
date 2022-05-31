@@ -86,11 +86,6 @@ header::before {
   }
 }
 
-.color-red {
-  color: #ff1203cf !important;
-  text-decoration: none !important;
-}
-
 @media (max-width: 67.75rem) {
   .dzen {
     -webkit-box-orient: horizontal !important;
@@ -105,10 +100,10 @@ header::before {
 }
 
 .intro {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 61, 85, 0.86)), to(rgba(25, 61, 85, 0.72))), url(../assets/img/intro-bg.jpg);
-  background-image: linear-gradient(180deg, rgba(24, 61, 85, 0.86), rgba(25, 61, 85, 0.72)), url(../assets/img/intro-bg.jpg);
+  background-image: url(../assets/img/intro-bg.jpg);
   background-position: 0 0px, 50% 50%;
   background-size: auto, cover;
+  background-repeat: no-repeat;
 }
 
 .intro.second {
@@ -333,7 +328,8 @@ header::before {
 }
 
 .btn-YT {
-  padding: 1.25rem 3.125rem;
+  padding: 1.25rem 1.25rem;
+  padding-right: 1.875rem;
   background-color: #fff;
   border: none;
   border-radius: 16px;
@@ -511,6 +507,35 @@ header::before {
   height: auto;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.nav-link {
+  color: #307ba8 !important;
+}
+
+.color-red {
+  color: #ff1203cf !important;
+  text-decoration: none !important;
+}
+
+.arrow-down {
+  -webkit-animation: translateY 1s ease infinite;
+          animation: translateY 1s ease infinite;
+  cursor: pointer;
+}
+
+@-webkit-keyframes translateY {
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+}
+
+@keyframes translateY {
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
 }
 
 .work__name {
