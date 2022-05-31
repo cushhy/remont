@@ -112,7 +112,7 @@ header::before {
 }
 
 .intro.second {
-  min-height: 520px;
+  min-height: 675px;
 }
 
 .intro__form {
@@ -205,6 +205,17 @@ header::before {
 
 @media (max-width: 28.9375rem) {
   .intro__text-pere {
+    font-size: 2.375rem !important;
+  }
+}
+
+.intro__text {
+  max-width: 620px;
+  font-size: 3rem !important;
+}
+
+@media (max-width: 33.875rem) {
+  .intro__text {
     font-size: 2.375rem !important;
   }
 }
@@ -342,6 +353,10 @@ header::before {
   color: #fff;
 }
 
+.btn-YT:hover .youtube_ico {
+  fill: #fff;
+}
+
 @media (max-width: 75.0625rem) {
   .btn-YT {
     padding: 1.25rem 0.625rem;
@@ -359,30 +374,50 @@ header::before {
 
 @media (max-width: 30.4375rem) {
   .btn-YT h2 {
-    font-size: 1.0625rem !important;
+    font-size: 1.25rem !important;
   }
+}
+
+.youtube_ico {
+  width: 100px;
+  height: 60px;
+  fill: #ff7141;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .btn-cost {
   min-height: 62px;
-  background-color: #ff7141;
+  background: #ff7141;
   border: none;
+  border-radius: 16px;
 }
 
-@media (max-width: 28.75rem) {
+@media (max-width: 48.125rem) {
   .btn-cost {
-    margin: 0.625rem auto !important;
+    margin: 1.875rem auto !important;
   }
 }
 
 .btn-cost h3 {
-  font-size: 1.25rem !important;
+  font-size: 1.5rem !important;
 }
 
-@media (max-width: 62.25rem) {
-  .btn-cost h3 {
-    font-size: 0.9375rem !important;
-  }
+.btn-cost.uzor {
+  background: url(../assets/img/uzor_knopok.png), #ff7141;
+}
+
+.btn-cost.uzor:hover {
+  background-color: #0d6efd;
+}
+
+.btn-cost.yt {
+  background: none;
+  border: 2px solid #fff;
+}
+
+.btn-cost.yt:hover {
+  background: #0d6efd;
 }
 
 .embed,
