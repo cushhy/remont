@@ -100,7 +100,8 @@ header::before {
 }
 
 .intro {
-  background-image: url(../assets/img/intro-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 61, 85, 0.4)), to(rgba(24, 61, 85, 0.4))), url(../assets/img/intro-bg.jpg);
+  background-image: linear-gradient(180deg, rgba(24, 61, 85, 0.4), rgba(24, 61, 85, 0.4)), url(../assets/img/intro-bg.jpg);
   background-position: 0 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: no-repeat;
@@ -328,7 +329,7 @@ header::before {
 }
 
 .btn-YT {
-  padding: 1.25rem 1.25rem;
+  padding: 0.625rem 1.25rem;
   padding-right: 1.875rem;
   background-color: #fff;
   border: none;
